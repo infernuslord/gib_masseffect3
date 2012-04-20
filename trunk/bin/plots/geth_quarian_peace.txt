@@ -1,7 +1,7 @@
 To receive *any* points, you must:
  - plot bool 1449 -- Probably Tali/Legion conflict in ME2 (plot.bools[1499] == true)
  - Have completed [Rannoch: Geth Fighter Squadrons] (plot.ints[10176] != 0)
- - Legion must have alive at the end of Mass Effect 2 (plot.bools[198] == false)
+ - Legion must be alive at the end of Mass Effect 2 (plot.bools[198] == false)
  - Tali must be alive (plot.bools[40] == true)
 
 +2 points: Heretics killed in [Legion: A House Divided] (plot.bools[757] == true)
