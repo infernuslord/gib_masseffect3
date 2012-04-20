@@ -8,8 +8,19 @@
       multiline_bools: false,
       bools:
       [
+        {id: 18184, name: "[Rannoch: Admiral Koris] Saved Admiral Koris"},
+
         {id: 21196, name: "[Citadel: Hanar Diplomat] Completed mission"},
         {id: 21451, name: "[Citadel: Hanar Diplomat] Saved homeworld"},
+      ],
+
+      ints:
+      [
+        {id: 10174, name: "[Rannoch: Admiral Koris] Dialogue state"},
+
+        {id: 10176, name: "[Rannoch: Geth Fighter Squadrons] Dialogue state"},
+
+        {id: 10212, name: "[Priority: Rannoch] Points toward Geth and Quarian peace\n(need minimum 5 points to enable paragon / renegade peace dialogue)"},
       ],
     },
     {

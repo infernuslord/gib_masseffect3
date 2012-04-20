@@ -8,12 +8,13 @@
       multiline_bools: false,
       bools:
       [
-        {id: 757, name: "[Legion: A House Divided] Heretics dead"},
-        {id: 759, name: "[Legion: A House Divided] Heretics rewritten"},
-
         {id: 360, name: "[Jacob: The Gift of Greatness] Dad marooned"},
         {id: 361, name: "[Jacob: The Gift of Greatness] Dad arrested"},
         {id: 362, name: "[Jacob: The Gift of Greatness] Dad suicide"},
+
+        {id: 757, name: "[Legion: A House Divided] Heretics dead"},
+
+        {id: 759, name: "[Legion: A House Divided] Heretics rewritten"},
 
         {id: 1497, name: "[Jacob: The Gift of Greatness] Completed mission"},
 
