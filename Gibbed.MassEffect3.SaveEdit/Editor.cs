@@ -152,11 +152,15 @@ namespace Gibbed.MassEffect3.SaveEdit
 
             this._RootIconImageList.Images.Clear();
             this._RootIconImageList.Images.Add("Unknown", new Bitmap(16, 16));
-            this._RootIconImageList.Images.Add(_PlayerPlayerRootMaleImageKey, Properties.Resources.Editor_Tab_Player_Root_Male);
-            this._RootIconImageList.Images.Add(_PlayerPlayerRootFemaleImageKey, Properties.Resources.Editor_Tab_Player_Root_Female);
+            this._RootIconImageList.Images.Add(_PlayerPlayerRootMaleImageKey,
+                                               Properties.Resources.Editor_Tab_Player_Root_Male);
+            this._RootIconImageList.Images.Add(_PlayerPlayerRootFemaleImageKey,
+                                               Properties.Resources.Editor_Tab_Player_Root_Female);
             this._RootIconImageList.Images.Add(playerBasicTabPageImageKey, Properties.Resources.Editor_Tab_Player_Basic);
-            this._RootIconImageList.Images.Add(playerAppearanceRootTabPageImageKey, Properties.Resources.Editor_Tab_Player_Appearance_Root);
-            this._RootIconImageList.Images.Add(playerAppearanceColorTabPageImageKey, Properties.Resources.Editor_Tab_Player_Appearance_Color);
+            this._RootIconImageList.Images.Add(playerAppearanceRootTabPageImageKey,
+                                               Properties.Resources.Editor_Tab_Player_Appearance_Root);
+            this._RootIconImageList.Images.Add(playerAppearanceColorTabPageImageKey,
+                                               Properties.Resources.Editor_Tab_Player_Appearance_Color);
             this._RootIconImageList.Images.Add(rawTabPageImageKey, Properties.Resources.Editor_Tab_Raw);
             this._RootIconImageList.Images.Add(plotRootTabPageImageKey, Properties.Resources.Editor_Tab_Plot_Root);
             this._RootIconImageList.Images.Add(plotManualTabPageImageKey, Properties.Resources.Editor_Tab_Plot_Manual);
@@ -413,7 +417,12 @@ namespace Gibbed.MassEffect3.SaveEdit
                         {
                             if (consumedBools.Contains(plot.Id) == true)
                             {
-                                throw new FormatException(string.Format("bool ID {0} already added", plot.Id));
+                                //throw new FormatException(string.Format("bool ID {0} already added", plot.Id));
+                                MessageBox.Show(string.Format(Properties.Localization.Editor_DuplicatePlotBool, plot.Id),
+                                                Properties.Localization.Warning,
+                                                MessageBoxButtons.OK,
+                                                MessageBoxIcon.Warning);
+                                continue;
                             }
                             consumedBools.Add(plot.Id);
 
@@ -438,7 +447,12 @@ namespace Gibbed.MassEffect3.SaveEdit
                         {
                             if (consumedInts.Contains(plot.Id) == true)
                             {
-                                throw new FormatException(string.Format("int ID {0} already added", plot.Id));
+                                //throw new FormatException(string.Format("int ID {0} already added", plot.Id));
+                                MessageBox.Show(string.Format(Properties.Localization.Editor_DuplicatePlotInt, plot.Id),
+                                                Properties.Localization.Warning,
+                                                MessageBoxButtons.OK,
+                                                MessageBoxIcon.Warning);
+                                continue;
                             }
                             consumedInts.Add(plot.Id);
 

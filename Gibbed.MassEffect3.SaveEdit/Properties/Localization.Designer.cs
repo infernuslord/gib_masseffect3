@@ -259,6 +259,24 @@ namespace Gibbed.MassEffect3.SaveEdit.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to bool ID {0} already added.
+        /// </summary>
+        internal static string Editor_DuplicatePlotBool {
+            get {
+                return ResourceManager.GetString("Editor_DuplicatePlotBool", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to int ID {0} already added.
+        /// </summary>
+        internal static string Editor_DuplicatePlotInt {
+            get {
+                return ResourceManager.GetString("Editor_DuplicatePlotInt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Failed to parse id..
         /// </summary>
         internal static string Editor_FailedToParseId {

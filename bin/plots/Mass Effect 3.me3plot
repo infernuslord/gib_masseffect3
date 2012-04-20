@@ -4,6 +4,47 @@
   [
     {
       name: "Missions",
+
+      multiline_bools: false,
+      bools:
+      [
+        {id: 21196, name: "[Citadel: Hanar Diplomat] Completed mission"},
+        {id: 21451, name: "[Citadel: Hanar Diplomat] Saved homeworld"},
+      ],
+    },
+    {
+      name: "Intel",
+
+      bools:
+      [
+        {id: 21531, name: "Weapon Upgrade Kit unlocked"},
+        {id: 21532, name: "Weapon Upgrade Kit purchased"},
+        {id: 21533, name: "Intel from Battle of Arcturus unlocked"},
+        {id: 21534, name: "Intel from Battle of Arcturus purchased"},
+        {id: 21535, name: "Biotic Research Data unlocked"},
+        {id: 21536, name: "Biotic Research Data purchased"},
+        {id: 21537, name: "Remains of Reaper Destroyer unlocked"},
+        {id: 21538, name: "Remains of Reaper Destroyer purchased"},
+        {id: 21539, name: "Intact Reaper Weapon unlocked"},
+        {id: 21540, name: "Intact Reaper Weapon purchased"},
+        {id: 21541, name: "Volus Intelligence Archives unlocked"},
+        {id: 21542, name: "Volus Intelligence Archives purchased"},
+        {id: 21543, name: "Improved Geth Resistors unlocked"},
+        {id: 21544, name: "Improved Geth Resistors purchased"},
+        {id: 21545, name: "Miniaturized Armor Capacitors unlocked"},
+        {id: 21546, name: "Miniaturized Armor Capacitors purchased"},
+        {id: 21547, name: "Gallea's Electronic Signature unlocked"},
+        {id: 21548, name: "Gallea's Electronic Signature purchased"},
+        {id: 21549, name: "Prejek Paddlefish unlocked"},
+        {id: 21550, name: "Prejek Paddlefish purchased"},
+
+        {id: 22419, name: "Armor Modkit unlocked"},
+        {id: 22420, name: "Armor Modkit purchased"},
+        {id: 22421, name: "Advanced Biotic Amps unlocked"},
+        {id: 22422, name: "Advanced Biotic Amps purchased"},
+
+        {id: 22641, name: "Med Bay Surgery purchased"},
+      ],
     },
     {
       name: "Henchmen",
@@ -38,6 +79,91 @@
 
       bools:
       [
+        {id: 19722, name: "Romancing Liara"},
+        {id: 19723, name: "Romancing Kaiden"},
+        {id: 19724, name: "Romancing Ashley"},
+        {id: 19725, name: "Romancing Garrus"},
+        {id: 19726, name: "Romancing Tali"},
+
+        {id: 19835, name: "Romancing Samantha"},
+
+        {id: 19838, name: "Romancing Steve"},
+      ],
+    },
+    {
+      name: "Armor",
+
+      note: "The Debug flag unlocks several options which are not available normally, including (but not limited to):
+ - Earth Prologue clothing
+ - Injured clothing
+ - Underwear
+ - Inferno Armor
+ - Cerberus Armor
+ - Terminus Armor
+ - Collector Armor
+ - Reckoner-Knight
+ - Blood Dragon Armor",
+
+      bools:
+      [
+        {id: 18988, name: "Unlocked Kuwashii Visor"},
+
+        {id: 18995, name: "Unlocked Death Mask"},
+
+        {id: 18999, name: "Unlocked Capacitor Helmet"},
+        {id: 19000, name: "Unlocked Archon Visor"},
+
+        {id: 19005, name: "Unlocked Kestrel Helmet"},
+        {id: 19006, name: "Unlocked Recon Hood"},
+        {id: 19007, name: "Unlocked Sentry Interface"},
+        {id: 19008, name: "Unlocked Umbra Visor"},
+
+        {id: 19455, name: "Unlocked Kassa Fabrication (torso)"},
+        {id: 19456, name: "Unlocked Kassa Fabrication (shoulders)"},
+        {id: 19457, name: "Unlocked Kassa Fabrication (arms)"},
+        {id: 19458, name: "Unlocked Kassa Fabrication (legs)"},
+
+        {id: 19459, name: "Unlocked Serrice Council (torso)"},
+        {id: 19460, name: "Unlocked Serrice Council (shoulders)"},
+        {id: 19461, name: "Unlocked Serrice Council (arms)"},
+        {id: 19462, name: "Unlocked Serrice Council (legs)"},
+
+        {id: 19467, name: "Unlocked Rosenkov Materials (torso)"},
+        {id: 19468, name: "Unlocked Rosenkov Materials (shoulders)"},
+        {id: 19469, name: "Unlocked Rosenkov Materials (arms)"},
+        {id: 19470, name: "Unlocked Rosenkov Materials (legs)"},
+
+        {id: 20914, name: "Unlocked Armax Arsenal (torso)"},
+        {id: 20915, name: "Unlocked Armax Arsenal (shoulders)"},
+        {id: 20916, name: "Unlocked Armax Arsenal (arms)"},
+        {id: 20917, name: "Unlocked Armax Arsenal (legs)"},
+
+        {id: 20918, name: "Unlocked Ariake Technologies (torso)"},
+        {id: 20919, name: "Unlocked Ariake Technologies (shoulders)"},
+        {id: 20920, name: "Unlocked Ariake Technologies (arms)"},
+        {id: 20921, name: "Unlocked Ariake Technologies (legs)"},
+
+        {id: 20984, name: "Unlocked Cerberus Armor"},
+        {id: 20985, name: "Unlocked Inferno Armor"},
+        {id: 20986, name: "Unlocked Terminus Armor"},
+        {id: 20987, name: "Unlocked Collector Armor"},
+        {id: 20988, name: "Unlocked N7 Defender"},
+        {id: 20989, name: "Unlocked Reckoner-Knight"},
+
+        {id: 21399, name: "Unlocked Hahne-Kedar (torso)"},
+        {id: 21400, name: "Unlocked Hahne-Kedar (shoulders)"},
+        {id: 21401, name: "Unlocked Hahne-Kedar (arms)"},
+        {id: 21402, name: "Unlocked Hahne-Kedar (legs)"},
+
+        {id: 21417, name: "Unlocked Blood Dragon Armor"},
+
+        {id: 21752, name: "Debug"},
+
+        {id: 22339, name: "Unlocked Mnemonic Visor"},
+        {id: 22340, name: "Unlocked Delumcore Overlay"},
+        {id: 22341, name: "Unlocked Securitel Helmet"},
+
+        {id: 22590, name: "Unlocked N7 Commemorative Hooded Jacket"},
       ],
     },
     {
