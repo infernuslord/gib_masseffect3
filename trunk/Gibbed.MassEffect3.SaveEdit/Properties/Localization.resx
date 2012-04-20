@@ -361,4 +361,10 @@ Are you sure you want to import a legacy head morph?</value>
   <data name="Editor_BuildRevision">
     <value xml:space="preserve"> (Build revision {0} @ {1})</value>
   </data>
+  <data name="Editor_DuplicatePlotInt">
+    <value xml:space="preserve">int ID {0} already added</value>
+  </data>
+  <data name="Editor_DuplicatePlotBool">
+    <value xml:space="preserve">bool ID {0} already added</value>
+  </data>
 </root>

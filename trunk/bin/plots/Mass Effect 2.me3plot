@@ -105,11 +105,13 @@
 
       bools:
       [
-        {id: 6941, name: "Liara toured the Normandy in [DLC: Lair of the Shadow Broker]"},
+        {id: 6941, name: "[DLC: Lair of the Shadow Broker] Liara toured the Normandy"},
       ],
     },
     {
-      name: "Misc",
+      name: "Fish",
+
+      note: "Fish states: 0-2 = alive, 3 = dead",
 
       multiline_bools: false,
       bools:
@@ -118,6 +120,13 @@
         {id: 3322, name: "Obtained Illium Skald Fish"},
         {id: 3323, name: "Obtained Thessian Sunfish"},
         {id: 3324, name: "Obtained Prejek Paddle Fish"},
+      ],
+
+      ints:
+      [
+        {id: 485, name: "Illium Skald Fish state"},
+        {id: 486, name: "Thessian Sunfish state"},
+        {id: 487, name: "Prejek Paddle Fish state"},
       ],
     },
   ],
