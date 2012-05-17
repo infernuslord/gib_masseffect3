@@ -446,10 +446,10 @@ otherwise your head will be messed up in-game.</value>
     <value>32</value>
   </data>
   <data name="_PlayerAppearanceColorListBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>3, 28</value>
   </data>
   <data name="_PlayerAppearanceColorListBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>722, 279</value>
+    <value>722, 254</value>
   </data>
   <data name="_PlayerAppearanceColorListBox.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -510,9 +510,6 @@ otherwise your head will be messed up in-game.</value>
   </data>
   <data name="_PlayerAppearanceColorToolStrip.Text" xml:space="preserve">
     <value>toolStrip2</value>
-  </data>
-  <data name="_PlayerAppearanceColorToolStrip.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;_PlayerAppearanceColorToolStrip.Name" xml:space="preserve">
     <value>_PlayerAppearanceColorToolStrip</value>
