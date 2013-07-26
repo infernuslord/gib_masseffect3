@@ -103,10 +103,22 @@ namespace Gibbed.MassEffect3.FileFormats
 // ReSharper restore UseObjectOrCollectionInitializer
                 entry.NameHash = input.ReadFileNameHash();
                 entry.BlockSizeIndex = input.ReadValueS32(endian);
-                entry.UncompressedSize = input.ReadValueU32(endian);
-                entry.UncompressedSize |= ((long)input.ReadValueU8()) << 32;
-                entry.Offset = input.ReadValueU32(endian);
-                entry.Offset |= ((long)input.ReadValueU8()) << 32;
+
+                if (endian == Endian.Little)
+                {
+                    entry.UncompressedSize = input.ReadValueU32(endian);
+                    entry.UncompressedSize |= ((long)input.ReadValueU8()) << 32;
+                    entry.Offset = input.ReadValueU32(endian);
+                    entry.Offset |= ((long)input.ReadValueU8()) << 32;
+                }
+                else
+                {
+                    entry.UncompressedSize = ((long)input.ReadValueU8()) << 32;
+                    entry.UncompressedSize |= input.ReadValueU32(endian);
+                    entry.Offset = ((long)input.ReadValueU8()) << 32;
+                    entry.Offset |= input.ReadValueU32(endian);
+                }
+
                 this.Entries.Add(entry);
             }
         }
